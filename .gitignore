@@ -1,0 +1,54 @@
+# Dependencies
+node_modules/
+.pnpm-store/
+
+# Build outputs
+dist/
+build/
+*.js.map
+.android/
+.ios/
+*.apk
+*.aab
+
+# Environment & secrets
+.env
+.env.*
+!.env.example
+*.pem
+*.key
+
+# IDE / OS
+.idea/
+.vscode/
+*.swp
+.DS_Store
+Thumbs.db
+
+# Logs & temp
+*.log
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+tmp/
+temp/
+
+# React Native / Metro
+.metro-health-check*
+*.jsbundle
+
+# Testing
+coverage/
+
+# Local Synapse / Docker volumes
+infra/data/
+infra/postgres-data/
+
+# AI models (large files)
+*.gguf
+*.bin
+models/
+*.onnx
+
+# Claude / AI assistant local files
+.claude/

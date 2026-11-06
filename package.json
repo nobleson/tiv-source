@@ -1,0 +1,21 @@
+{
+  "name": "tiv-source",
+  "version": "0.0.1",
+  "private": true,
+  "description": "Open-source platform for community messaging, verified reporting, and local-language AI. ateutiv is the first product built on it.",
+  "license": "Apache-2.0",
+  "packageManager": "pnpm@9.15.0",
+  "engines": {
+    "node": ">=20"
+  },
+  "scripts": {
+    "lint": "echo \"Lint scripts will be added in Phase 0\"",
+    "test": "echo \"Test scripts will be added in Phase 0\"",
+    "typecheck": "echo \"Typecheck scripts will be added in Phase 0\""
+  },
+  "workspaces": [
+    "apps/*",
+    "packages/*",
+    "services/*"
+  ]
+}
