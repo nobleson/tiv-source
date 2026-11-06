@@ -129,4 +129,3 @@ Apache License 2.0 — see [LICENSE](LICENSE).
 ---
 
 Built with care for communities that need both everyday communication and protected channels for verified information.
-git remote add origin https://github.com/nobleson/tiv-source
